@@ -1,0 +1,12 @@
+li {
+	list-style: none;
+	display: block;
+    background-color: #ff9999;
+    color:#000;
+    font-weight: bold;
+    line-height:20px;
+    width: 50%;
+}
+body {
+	background-color: #ffcccc;
+}

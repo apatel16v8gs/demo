@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myfile">
+
+<head>
+    <title>Angular Service tutorial</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body ng-controller="myCtrl">
+    <div>
+        <div>
+             <h3>This is my Car list:-</h3>
+            <ul ng-repeat="x in car">
+                <li>This is my make from {{x.Make}}.</li>
+                <li>My car name is {{x.Model}}.</li>
+                <li>Car is from this {{x.Year}}year.</li>
+                <li>My car Color is {{x.Color}}.</li>
+                <li>Value of my car is {{x.Price | currency}}.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
